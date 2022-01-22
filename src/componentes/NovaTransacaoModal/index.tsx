@@ -8,6 +8,8 @@ import fecharImg from '../../assets/close.svg';
 import entradaImg from '../../assets/income.svg';
 import saidaImg from '../../assets/outcome.svg';
 
+
+Modal.setAppElement('#root')
 interface NovaTransacaoModalProps {
     isOpen: boolean;
     onRequestClose: () => void
